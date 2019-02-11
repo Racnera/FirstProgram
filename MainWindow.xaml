@@ -1,0 +1,20 @@
+﻿<Window x:Class="HelloWorld.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HelloWorld"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <Label>
+            Hello World
+        </Label>
+        <TextBlock>
+            My Name is HAL, what is your name?
+           
+        </TextBlock>
+        <TextBox x:Name="txtInput"> </TextBox>
+        <Button Content="Click Me" Click="Button_Click"></Button>
+    </StackPanel>
+</Window>
